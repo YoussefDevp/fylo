@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    padding: 3.5rem;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.header {
+  display: flex;
+}
+.header__logo {
+  flex: 1;
+}
+.header__nav ul {
+  display: flex;
+  list-style: none;
+}
+.header__nav ul li {
+  padding-left: 4rem;
+}
+
+.header__nav ul li a {
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  height: 80vh;
+}
+.hero__right {
+  width: 50%;
+}
+.hero__right img {
+  width: 80%;
+  margin-left: 5rem;
+}
+.hero__left {
+  width: 50%;
+  height: 100%;
+  margin-top: 5%;
+}
+
+.submit {
+  display: flex;
+}
+
+.primary__heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.hero__left h1,
+p {
+  margin-bottom: 1.5rem;
+  width: 73%;
+}
+
+.submit {
+  width: 73%;
+}
+.submit input[type="text"] {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+.btn {
+  background-color: hsl(224, 93%, 58%);
+  color: #fff;
+  padding: 0.5rem 3rem;
+  text-decoration: none;
+  font-size: 80%;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px hsla(224, 22%, 66%, 0.76);
+}
+
+.work{
+    width: 100%;
+    
+} 
+
+.work img {
+  width: 100%;
+}
